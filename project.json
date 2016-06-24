@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0-*",
+  "copyright": "42 North Systems, Inc.",
+  "description": "Sample application for use with the .NET Core docker image",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  },
+   "configurations": {
+    "Debug": {
+      "buildOptions": {
+        "define": ["DEBUG", "TRACE"]
+      }
+    },
+    "Release": {
+      "buildOptions": {
+        "define": ["RELEASE"],
+        "outputName": "app",
+        "optimize": true
+      }
+    }
+}
+}

@@ -1,2 +1,3 @@
-# ubuntu-xenial-dcp-sample-app
-A sample application for use with the .NET Core 1.0.0 docker image
+# Ubuntu 16.04 Xenial comp
+
+A sample application for use with the 42north/ubuntu-xenial-dcp:1.0.0 .NET Core docker image
